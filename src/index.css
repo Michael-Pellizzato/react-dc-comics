@@ -31,3 +31,11 @@
 .list-unstyled a{
     color: rgb(188, 186, 186);
 }
+
+nav li.active{
+    background: lightblue;
+}
+
+nav li:hover {
+  background: lightblue;
+}

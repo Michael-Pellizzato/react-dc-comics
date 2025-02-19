@@ -1,5 +1,18 @@
 import logo from "../assets/img/dc-logo.png"
+import Navbar from "./Navbar";
 
+// const links = [
+    //     { id: 1, text: 'Characters', url: '#', current: false },
+    //     { id: 2, text: 'Comics', url: '#', current: true },
+    //     { id: 3, text: 'Movies', url: '#', current: false },
+    //     { id: 4, text: 'TV', url: '#', current: false },
+    //     { id: 5, text: 'Games', url: '#', current: false },
+    //     { id: 6, text: 'Collectibles', url: '#', current: false },
+    //     { id: 7, text: 'Videos', url: '#', current: false },
+    //     { id: 8, text: 'Fans', url: '#', current: false },
+    //     { id: 9, text: 'News', url: '#', current: false },
+    //     { id: 10, text: 'Shop', url: '#', current: false },
+    // ];
 
 const Header = () => {
   return (
@@ -8,61 +21,7 @@ const Header = () => {
         <a className="navbar-brand" href="#">
           <img src={logo} alt="DC Logo" height="40" />
         </a>
-        <ul className="navbar-nav ms-auto">
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              CHARACTERS
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link text-primary border-bottom border-primary"
-              href="#"
-            >
-              COMICS
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              MOVIES
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              TV
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              GAMES
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              COLLECTIBLES
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              VIDEOS
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              FANS
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              NEWS
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-dark" href="#">
-              SHOP
-            </a>
-          </li>
-        </ul>
+         <Navbar /> 
       </nav>
     </div>
   );
