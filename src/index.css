@@ -1,0 +1,33 @@
+.black h2{
+    color: white;  
+}
+
+.black{
+    background-color: black;
+    display: flex;
+    height: 8rem;
+    align-items: center;
+}
+
+.blue p{
+    color: white;
+    padding-left: 0.5rem;
+    
+}
+
+.blue img{
+    height: 2rem;
+    padding-left: 3rem;
+}
+
+.blue{
+    background-color: rgb(2, 89, 251);
+    display: flex;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-unstyled a{
+    color: rgb(188, 186, 186);
+}
