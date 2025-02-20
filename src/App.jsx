@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Header links={links} />
-      <Main />
+      <Main comics={comics}/>
       <Footer />
     
     </>

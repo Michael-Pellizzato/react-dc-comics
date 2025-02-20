@@ -3,13 +3,15 @@ import img2 from "../assets/img/buy-comics-merchandise.png"
 import img3 from "../assets/img/buy-comics-subscriptions.png"
 import img4 from "../assets/img/buy-comics-shop-locator.png"
 import img5 from "../assets/img/buy-dc-power-visa.svg"
+import Cards from "./Cards"
 
-const Main = () => {
+const Main = (props) => {
     return (
       <>
-        <div className="black">
+      <div className="sfondo"></div>
+        <div className="bg-dark">
           <div className="container">
-            <h2>content goes here</h2>
+            <Cards comics={props.comics}/>
           </div>
         </div>
 

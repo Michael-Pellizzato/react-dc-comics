@@ -2,13 +2,6 @@
     color: white;  
 }
 
-.black{
-    background-color: black;
-    display: flex;
-    height: 8rem;
-    align-items: center;
-}
-
 .blue p{
     color: white;
     padding-left: 0.5rem;
@@ -39,3 +32,19 @@ nav li.active{
 nav li:hover {
   background: lightblue;
 }
+
+.card-image {
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+  
+  }
+
+  .sfondo {
+
+    background-image: url(../src/assets/img/jumbotron.jpg);
+    min-height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
