@@ -4,8 +4,7 @@
 
 .blue p{
     color: white;
-    padding-left: 0.5rem;
-    
+    padding-left: 0.5rem; 
 }
 
 .blue img{
@@ -41,10 +40,8 @@ nav li:hover {
   }
 
   .sfondo {
-
     background-image: url(../src/assets/img/jumbotron.jpg);
     min-height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
-  
   }
